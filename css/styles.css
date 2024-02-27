@@ -189,7 +189,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -236,7 +236,8 @@ img {
   margin-bottom: 8px;
   width: 264px;
   height: 112px;
-  display: grid;
+  /* display: grid; */
+  display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -542,4 +543,5 @@ img {
 .li-icon-footer:focus {
   background-color: #31d0aa;
 }
+
 /* --------- /Footer --------- */
